@@ -68,7 +68,6 @@ def get_from_param(param):
     else:
         return "your parameter (" + param + ") is not valid"
 
-    print(result)
     return Response(result, mimetype='application/json')
 
 
@@ -149,7 +148,6 @@ def get_from_id(param, id=None):
         except:
             return "Your id (" + str(id) + ") is not valid"
 
-    print(result)
     return Response(result, mimetype='application/json')
 
 
@@ -225,23 +223,13 @@ def get_from_key_value(param, key, value):
             result = VenueJsonEncoder().encode(ReasonsItem(db, **{key: value}))
         elif param == "stats":
             result = VenueJsonEncoder().encode(Stats(db, **{key: value}))
-
-
-
         else:
             return "your parameter (" + param + ") is not valid"
     except:
         return "Your query (" + key+"=" + str(value) + ") is not valid in "+param
 
-    print(result)
     return Response(result, mimetype='application/json')
 
 
 if __name__ == '__main__':
     app.run()
-
-    """object1 = Hours(db, id=1)
-    pprint(vars(object1))
-    print(VenueJsonEncoder().encode(object1))"""
-
-    # pprint(vars(adres.city))
