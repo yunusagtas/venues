@@ -3,6 +3,12 @@
 ## Description
 You can get json data of Venue Details
 
+## Requirements
+pymongo
+flask
+Unrar Data.rar and start mongodb
+configure database.py
+
 # How to get data?
 ## Get Data of Entity Type
 if you want all data of entity, use plural like: venues, tips, photos
