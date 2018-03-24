@@ -1,9 +1,8 @@
 from flask import Flask, Response
-from pprint import pprint
+from json import JSONEncoder
 import re
 
 from database import Database
-from json import JSONEncoder
 
 from venue_objects.attribute import Attribute
 from venue_objects.attributes_item import AttributesItem
