@@ -4,10 +4,10 @@
 You can get json data of Venue Details
 
 ## Requirements
-pymongo
-flask
-Unrar Data.rar and start mongodb
-configure database.py
+ - pymongo
+ - flask
+ - Unrar Data.rar and start mongodb
+ - configure database.py
 
 # How to get data?
 ## Get Data of Entity Type
