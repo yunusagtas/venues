@@ -1,4 +1,4 @@
-from venue_objects.ornek_child_object import OrnekChildObject
+from venue_objects.ornek_child import OrnekChild
 from venue_objects.helper import add_attr_db, convert_params
 
 
@@ -31,4 +31,4 @@ class Ornek:
         self.child_items = []
         for id in db_result.get('_ids_ornek_child') or ():
             if id is not None:
-                self.child_items.append(OrnekChildObject(db, id=id))
+                self.child_items.append(OrnekChild(db, id=id))
