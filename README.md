@@ -3,10 +3,10 @@
 ## Description
 You can get json data of Venue Details
 
-## Requirements
- - pymongo
- - flask
- - Unrar Data.rar and start mongodb
+## Installing
+ - pip install pymongo
+ - pip install flask
+ - Unrar Data.rar and start mongodb with --dbpath <your Data directory> argument
  - configure database.py
 
 # How to get data?
