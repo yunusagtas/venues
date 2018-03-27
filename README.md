@@ -69,11 +69,13 @@ Sample: `http://127.0.0.1:5000/photoItem/1/`
 Some keys begins with "**_ids**". It is array of unique id. You can query like id, if your number is exists in array, will be return entity.
 
 Sample: `http://127.0.0.1:5000/venue/_ids_categories/4/`
+
 Sample2: `http://127.0.0.1:5000/user/gender/male/`
 
 ***Importent:*** your result has multiple entity, they are will in **items[]**
 
 **Database Hierarchy**
+
 ![Database Hierarchy](/hierarchy.png)
 
 **List Of Keys of Entities**
