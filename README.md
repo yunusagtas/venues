@@ -73,6 +73,9 @@ Sample2: `http://127.0.0.1:5000/user/gender/male/`
 
 ***Importent:*** your result has multiple entity, they are will in **items[]**
 
+**Database Hierarchy**
+![Database Hierarchy](/hierarchy.png)
+
 **List Of Keys of Entities**
  - venue
 	- id
