@@ -1,7 +1,7 @@
 
 # Venue Query API
 ## Description
-You can get json data of Venue Details
+This is my tutorial. You can get json data of Venue Details
 
 ## Installing
  - pip install pymongo
